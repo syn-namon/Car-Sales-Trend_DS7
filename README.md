@@ -1,6 +1,5 @@
 # 🚗 Car Sales Analysis 
 
-<!-- This is a short summary, we can add to it as we start the project -->
 ## Data Science Institute - Cohort 6 — Team 7 - Final Project
 For our capstone project in the Data Science Certificate program at the University of Toronto’s Data Sciences Institute, we set out to explore real-world questions using a dataset on car sales. 
 
@@ -16,20 +15,24 @@ For our capstone project in the Data Science Certificate program at the Universi
 
 <!-- We can share ownership of this section -->
 ## Project Overview
-- [Purpose and Overview](#purpose-and-overview)
-- [Data Analysis](#data-analysis)
-- [Understanding the Data](#understanding-the-data)
-- [Data Cleaning](#data-cleaning)
-- [Data Exploration](#data-exploration)
-- [Data Visualization](#data-visualization)
-- [Team Videos](#team-videos)
-- [Conclusion](#conclusion)
+- [Purpose and Overview](#purpose-and-overview) <!-- ST, IS-->
+- [Project Scope](#project-scope) <!-- DL-->
+- [Methodology](#methodology) <!-- IS -->
+- [Understanding the Data](#understanding-the-data) <!-- Can be deleted -->
+- [Data Cleaning](#data-cleaning) <!-- AL -->
+- [Data Exploration](#data-exploration) <!-- AL -->
+- [Data Visualization](#data-visualization) <!-- TBD -->
+- [Team Videos](#team-videos) <!-- TBD -->
+- [Conclusion](#conclusion) <!-- TBD -->
 - [Credits and Source](#credits)
 
 ### Purpose and Overview 
 TBD
 
-### Data Analysis
+### Project Scope
+TBD
+
+### Methodology
 TBD
 
 ### Understanding the Data
