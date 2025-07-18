@@ -1,4 +1,4 @@
-**Car Purchase Trends by Demographics**
+
 
 **Project Overview:**
 
@@ -9,4 +9,5 @@ This project demonstrates our ability to work collaboratively on a data visualiz
 
 - Automotive Dealership Executives looking to identify high-performing car brands and models for strategic stocking and sales decisions.
 - Marketing and Sales Analysts who want to understand consumer purchasing patterns and seasonality trends across different car types and price ranges.
+
 
