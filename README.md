@@ -24,7 +24,7 @@ For our capstone project in the Data Science Certificate program at the Universi
 - [Data Visualization](#data-visualization) <!-- TBD -->
 - [Team Videos](#team-videos) <!-- TBD -->
 - [Conclusion](#conclusion) <!-- TBD -->
-- [Credits and Source](#credits)
+- [Credits and Source](#credits) <!-- Done -->
 
 ### Purpose and Overview 
 TBD
