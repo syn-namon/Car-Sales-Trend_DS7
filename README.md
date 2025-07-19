@@ -1,7 +1,7 @@
 
  # 🚗 Car Sales Analysis 
-
 <!-- Entered name as per the Team project list. Should we order it by first or last name or leave it as is? -->
+ 
  ## Members
  - Aloysius Felix Rozario 
  - Hamid Baniasadi
@@ -86,6 +86,3 @@
  ### Credits and Source
  The data was sourced from Kaggle.\
  [Car Sales Report](https://www.kaggle.com/datasets/missionjee/car-sales-report/data)
-
-
-
