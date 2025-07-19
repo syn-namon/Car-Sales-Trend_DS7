@@ -29,18 +29,19 @@
  - [Credits and Source](#credits)
 
  # Purpose and Overview
- For our capstone project in the Data Science Certificate program at the University of Toronto’s Data Sciences Institute, we set out to explore real-world questions using a dataset on car sales. 
 
- The project was processed with help of classification modelling to understand the impact of demographic factors on the popularity of a specific car model based on historical purchase data. The features which were used for the predictions are following: gender, annual income.
-
- Our primary stakeholders include marketing teams, commercial teams, and business strategists, as they are responsible for the promoting and sales processes and growth of the business.
- While dataset used for analysis has big enough population (3022 unique entries), there are some possible risks/biases that are important to mention:
+ The goal of this project is to analyze and visualize trends in the car sales market using the "Car Sales Report" dataset. Our team aims to uncover insights into sales performance across different brands, models, body types, fuel types, and price segments. 
+ 
+ The project was processed with help of classification modelling to understand the impact of demographic factors on the popularity of a specific car model based on historical purchase data. The features, which were used for the predictions are following: gender, annual income.
+ 
+ The dataset shows that there are some possible risks/biases, which are important to mention:
  - The income feature depends on the gender, which affects customer ability to afford a specific range of the car. The statistics says that women earn 18% less on avarage than men in the USA. ([source](https://www.epi.org/blog/gender-pay-gap-2024/))
  - There could be a possibility when a car is bought by a parent or a partner for the person of the opposite gender. The dataset doesn't provide enough of details to analyze this possibility and its impact on the prediction.
  - The limited demographic data (gender and income) could cause less accurate prediction. Such factors as age, marriage status, and amount of kids can affect the trend as well.
+ These potential risks can affect and limit the reliability of our conclusions.
 
- To address our business question, we will analyze key factors such as gender and income to identify their impact on the customers' choice of car's model and validate the results by splitting the dataset into training and validation portions. The potential risks of rate of income among different genders and possibility of the buyer and final owner of the car to have different gender can affect and limit the reliability of our conclusions.
-
+ By leveraging Python-based visualization libraries such as Matplotlib, Seaborn, and Plotly in a Jupyter Notebook environment, we intend to present clear and actionable visual narratives that highlight key market dynamics.
+ 
  # Methodology
  ### Steps taken:
  - Data Cleaning: Handling missing values, removing inconsistencies, and ensuring data readiness.
