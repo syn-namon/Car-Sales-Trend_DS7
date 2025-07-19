@@ -1,4 +1,3 @@
-=======
 # 🚗 Car Sales Analysis 
 
 <!-- This is a short summary, we can add to it as we start the project -->
