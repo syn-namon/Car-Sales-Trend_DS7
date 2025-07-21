@@ -3,14 +3,11 @@
 <!-- Entered name as per the Team project list. Should we order it by first or last name or leave it as is? -->
  
  ## Members
- - Aloysius Felix Rozario 
- - Hamid Baniasadi
+ - Aloysius Felix Rozario
+ - Inna Semenykhina
  - Nguyen Thuy Duong Le
  - Shailesh Thapa
- - Inna Semenykhina
- - Farhan Rashid
- - Nasir Paracha
-
+ 
  <!-- This is a short summary, we can add to it as we start the project -->
  ## Data Science Institute - Cohort 6 — Team 7 - Final Project
  Goal: Predict which category of car a customer is likely to purchase based on demographic factors and historical purchase data.
@@ -20,9 +17,9 @@
  - [Purpose and Overview](#purpose-and-overview)
  - [Methodology](#methodology)
  - [Project Scope](#project-scope)
- - [Data Analysis](#data-analysis)
  - [Understanding the Data](#understanding-the-data)
  - [Data Cleaning](#data-cleaning)
+ - [Data Analysis](#data-analysis)
  - [Data Visualization](#data-visualization)
  - [Team Videos](#team-videos)
  - [Conclusion](#conclusion)
@@ -64,16 +61,26 @@
  - SKLearn: classification analysis
 
  ### Project Scope
- TBD
+ 
+ #### Description
 
- ### Data Analysis
- TBD
+This project involves conducting classification analysis on customer demographic and historical purchase data to identify key factors that predict customer’s purchase preference for specific car categories (e.g. SUV, Sedan, Hatchback, Luxury, etc). Data splitting  and performance metrics are used to validate and ensure reliability of the analysis. Additionally, we will provide insights and recommendations for sales and product management strategies based on the findings.
+
+#### Stakeholders
+- **Sales Teams** – Optimize inventory and customer interaction strategy.
+- **Marketing Teams** – Use predictions for targeted campaigns and promotions.
+- **Product Managers** - Guide future product offerings and customer segmentation.
+- **Business Executives** – Make strategic decisions based on customer behavior analytics
+
 
  ### Understanding the Data
  TBD
 
  ### Data Cleaning
  TBD
+
+ ### Data Analysis
+ Linear classification model
 
  ### Data Visualization
  TBD
