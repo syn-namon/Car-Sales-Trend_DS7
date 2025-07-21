@@ -10,7 +10,6 @@ For our capstone project in the Data Science Certificate program at the Universi
 - Nguyen Thuy Duong Le
 - Shailesh Thapa
 - Inna Semenykhina
-- Farhan Rashid
 - Nasir Paracha
 
 <!-- We can share ownership of this section -->
@@ -76,24 +75,27 @@ _Income distribution is wide, indicating a diverse customer base from lower to h
     * Price Range: $1,200 – $85,800
 
 - ```Dealer_Name, Dealer_No, Dealer_Region:``` Dealer details
+    * Total Unique Dealers: 28
+    * Total Unique Dealer Numbers: 7
+    * Total Unique Dealer Regions: 7
 
 - ```Phone:``` Customer contact (anonymized numeric field)
 
 > ### SUVs were the most popular body style
 
-![Chart showing the top 5 body styes sold](/Top%205%20Body%20Styles%20Sold.png)
+![Chart showing the top 5 body styes sold](/img//Top%205%20Body%20Styles%20Sold.png)
 
 > ### Automatic transmissions dominated sales across all regions
 
-![Chart showing transmission types across dealer regions](/Transmission%20Types%20Across%20Dealer%20Regions.png)
+![Chart showing transmission types across dealer regions](/img/Transmission%20Types%20Across%20Dealer%20Regions.png)
 
 > ### Brands like Toyota, Ford, and BMW consistently appeared among the top sellers
 
-![Chart showing top three brands sales count](/Sales%20Count%20For%20Toyota,%20Ford,%20And%20BMW.png)
+![Chart showing top three brands sales count](/img/Sales%20Count%20For%20Toyota,%20Ford,%20And%20BMW.png)
 
 > ### Car prices varied significantly based on model, region, and customer income level
 
-![Chart showing price distribution of the cars](/Distribution%20of%20Car%20Prices.png)
+![Chart showing price distribution of the cars](/img/Distribution%20of%20Car%20Prices.png)
 
 This exploration guided us in choosing the most relevant features for our later visualizations and predictive modeling, and gave us a solid understanding of the automotive sales landscape reflected in the data.
 
