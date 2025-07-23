@@ -8,7 +8,6 @@
  - Nguyen Thuy Duong Le
  - Shailesh Thapa
  
-
  <!-- This is a short summary, we can add to it as we start the project -->
  ## Data Science Institute - Cohort 6 — Team 7 - Final Project
  Goal: Predict which category of car a customer is likely to purchase based on demographic factors and historical purchase data.
@@ -72,6 +71,7 @@ This project involves conducting classification analysis on customer demographic
 - **Marketing Teams** – Use predictions for targeted campaigns and promotions.
 - **Product Managers** - Guide future product offerings and customer segmentation.
 - **Business Executives** – Make strategic decisions based on customer behavior analytics
+
 
  ### Understanding the Data
  TBD
