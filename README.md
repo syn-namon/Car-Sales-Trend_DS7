@@ -123,9 +123,9 @@ _Income distribution is wide, indicating a diverse customer base from lower to h
 
 ![Chart showing transmission types across dealer regions](/img/Transmission%20Types%20Across%20Dealer%20Regions.png)
 
-> ### Brands like Toyota, Ford, and BMW consistently appeared among the top sellers
+> ### Top 5 brands by no of cars sold
 
-![Chart showing top three brands sales count](/img/Sales%20Count%20For%20Toyota,%20Ford,%20And%20BMW.png)
+![Top 5 brands by no of cars sold](/img/Top%205%20Brands%20Sold.png)
 
 > ### Car prices varied significantly based on model, region, and customer income level
 
