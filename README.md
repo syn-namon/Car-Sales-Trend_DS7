@@ -35,7 +35,7 @@ For our capstone project in the Data Science Certificate program at the Universi
  The project was processed with help of classification modelling to understand the impact of demographic factors on the popularity of a specific car model based on historical purchase data. The features, which were used for the predictions are following: gender, annual income.
  
  The dataset shows that there are some possible risks/biases, which are important to mention:
- - The income feature depends on the gender, which affects customer ability to afford a specific range of the car. The statistics says that women earn 18% less on avarage than men in the USA. ([source](https://www.epi.org/blog/gender-pay-gap-2024/))
+ - The income feature depends on the gender, which affects customer ability to afford a specific range of the car. The statistics says that women earn 18% less on average than men in the USA. ([source](https://www.epi.org/blog/gender-pay-gap-2024/))
  - There could be a possibility when a car is bought by a parent or a partner for the person of the opposite gender. The dataset doesn't provide enough of details to analyze this possibility and its impact on the prediction.
  - The limited demographic data (gender and income) could cause less accurate prediction. Such factors as age, marriage status, and amount of kids can affect the trend as well.
  These potential risks can affect and limit the reliability of our conclusions.
