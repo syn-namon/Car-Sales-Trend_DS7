@@ -272,30 +272,3 @@ from car_sales_report where price <
 (
 select avg(price) from car_sales_report
 ) order by price asc limit 50;
-
--- validating data 
--- phone and if it includes additional symbols
-select phone from car_sales_report where 
-phone like '%-%' or 
-phone like '%(%' or 
-phone like '%)%';
-
--- additional check for any null values in each comlumn
-select * from car_sales_report 
-where 
-             (phone is null or trim(phone) = ' ') or
-			 (car_id is null or trim(car_id) = ' ') or
-			 (purchase_date is null or trim(purchase_date) = ' ') or
-			 (customer_name is null or trim(customer_name) = ' ') or
-			 (gender is null or trim(gender) = ' ') or
-			 (annual_income is null) or
-			 (dealer_name is null or trim(dealer_name) = ' ') or
-			 (company is null or trim(company) = ' ') or
-			 (model is null or trim(company) = ' ') or
-			 (engine is null or trim(engine) = ' ') or
-			 (transmission is null or trim(transmission) = ' ') or
-			 (color is null or trim(color) = ' ') or
-			 (price is null) or
-			 (dealer_no is null or trim(dealer_no) = ' ') or
-			 (body_style is null or trim(body_style) = ' ') or
-			 (dealer_region is null or trim(dealer_region) = ' ');

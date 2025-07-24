@@ -164,23 +164,23 @@ This exploration guided us in choosing the most relevant features for our later 
  - matplotlib.pyplot (for pre-analysis visualization)
 
  # Data Analysis
- Linear classification model
-Why We Chose to Use a Machine Learning Model
-Our project aims to identify key factors that influence a customer's preference for specific car categories (e.g., SUV, Sedan, Hatchback, etc.). While exploratory data analysis and visualizations helped us uncover general trends and correlations, we chose to build a Logistic Regression classification model to strengthen the insights in the following ways:
 
-Predictive Power:
-By using a classification model, we can predict which car category a potential customer is likely to purchase based on their demographic and purchase history. This is valuable for sales and marketing teams to tailor their strategies.
+ #### Why We Chose to Use a Machine Learning Model:
+ Our project aims to identify key factors that influence a customer's preference for specific car categories (e.g., SUV, Sedan, Hatchback, etc.). While exploratory data analysis and visualizations helped us uncover general trends and correlations, we chose to build a Logistic Regression classification model to strengthen the insights in the following ways:
 
-Interpretability:
-Logistic Regression offers clear insights into which features (e.g., income, region, engine type) are most influential in shaping customer preferences. This supports data-driven decision-making for product planning and dealership targeting.
+ #### Predictive Power:
+ By using a classification model, we can predict which car category a potential customer is likely to purchase based on their demographic and purchase history. This is valuable for sales and marketing teams to tailor their strategies.
 
-Business Value:
-The model provides actionable insights that go beyond historical trends — enabling personalized product recommendations and segmentation strategies, which are critical for automotive businesses aiming to optimize customer engagement.
+ #### Interpretability:
+ Logistic Regression offers clear insights into which features (e.g., income, region, engine type) are most influential in shaping customer preferences. This supports data-driven decision-making for product planning and dealership targeting.
 
-Portfolio Strength:
-Incorporating a machine learning model demonstrates our team’s capability to move from data analysis to predictive modeling, an important skill set for data science roles.
+ #### Business Value:
+ The model provides actionable insights that go beyond historical trends — enabling personalized product recommendations and segmentation strategies, which are critical for automotive businesses aiming to optimize customer engagement.
 
-By balancing accuracy with interpretability, the model enhances our project’s impact while staying aligned with our original business question and stakeholder needs.
+ #### Portfolio Strength:
+ Incorporating a machine learning model demonstrates our team’s capability to move from data analysis to predictive modeling, an important skill set for data science roles.
+
+ By balancing accuracy with interpretability, the model enhances our project’s impact while staying aligned with our original business question and stakeholder needs.
 
  # Data Visualization
  TBD
