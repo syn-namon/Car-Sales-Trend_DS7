@@ -199,7 +199,7 @@ Data review prior cleaning was processed in SQL and Python to ensure clean and s
  
  During the experiments, two classification models were applied to achieve the desired results: Logistic Regression and Random Forest Classifier. Both models identified the same trend in car category popularity; however, their prediction accuracy differed. After implementing code improvements, Logistic Regression accuracy increased from 39% to 59%, indicating notable performance gains. Random Forest Classifier still achieved a higher accuracy of 71%, making it the stronger model overall. Despite the performance gap, Logistic Regression reliably captured the overall trend in car preferences, supporting its value for understanding general patterns, while Random Forest remains the preferred choice for more accurate predictions.
 
-Our recommendation for the business stakeholders is to make use of the classification as a decision-support tool but not yet a fully autonomous system. Continuous improvement is needed in expanding dataset and cross-department data collaboration to enrich model inputs and model maturity. 
+Our recommendation for the business stakeholders is to make use of the classification model as a decision-support tool but not yet a fully autonomous system. Continuous improvement is needed in expanding dataset and cross-department data collaboration to enrich model inputs and model maturity. 
 
  Limitations and Considerations
   The analysis faced several data-related limitations that may affect model reliability:
