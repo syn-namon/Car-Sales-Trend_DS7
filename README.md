@@ -23,16 +23,15 @@ For our capstone project in the Data Science Certificate program at the Universi
  - [Understanding the Data](#understanding-the-data)
  - [Data Cleaning](#data-cleaning)
  - [Data Analysis](#data-analysis)
- - [Data Visualization](#data-visualization)
- - [Team Videos](#team-videos)
  - [Conclusion](#conclusion)
+ - [Team Videos](#team-videos)
  - [Credits and Source](#credits)
 
  # Purpose and Overview
 
  The goal of this project is to analyze and visualize trends in the car sales market using the "Car Sales Report" dataset. Our team aims to uncover insights into sales performance across different brands, models, body types, fuel types, and price segments. 
  
- The project was processed with help of classification modelling to understand the impact of demographic factors on the popularity of a specific car model based on historical purchase data. The features, which were used for the predictions are following: gender, annual income.
+ The project was processed with help of classification modelling to understand the impact of demographic factors on the popularity of a specific car model based on historical purchase data. The features, which were used for the predictions are following: gender, annual income, price, body style, company, model, engine, transmission, color, and dealer region.
  
  The dataset shows that there are some possible risks/biases, which are important to mention:
  - The income feature depends on the gender, which affects customer ability to afford a specific range of the car. The statistics says that women earn 18% less on average than men in the USA. ([source](https://www.epi.org/blog/gender-pay-gap-2024/))
@@ -46,7 +45,7 @@ For our capstone project in the Data Science Certificate program at the Universi
  ## Steps taken:
  - Data Cleaning: Handling missing values, removing inconsistencies, and ensuring data readiness.
  - Pre-analysis, finding correlation: Understanding patterns, correlations, and data distribution.
- - Classification analysis and validation: applying linear classification models to determine how our demographic features affect the customers' choice during purchasing a car. Additionally, creating training and test sets and assessing model accuracy. 
+ - Classification analysis and validation: applying linear classification models to determine how our demographic features  affect the customers' choice during purchasing a car based on historical purchase data. Additionally, creating training and test sets and assessing model accuracy. 
  - Visualization: Creating plots to represent insights and model results.
  - Conclusion
 
@@ -142,7 +141,7 @@ This exploration guided us in choosing the most relevant features for our later 
 
  Data validation of the "Gender" column revealed significant inconsistencies between gender-indicative names and the corresponding gender values. This suggests that the gender information was likely self-reported, possibly collected through an online form or survey. In such cases, individuals may have entered the gender they personally identify with, rather than one inferred by external criteria. Additionally, the dataset's source is listed as "Internet" on Kaggle, which supports the assumption that the gender values reflect user-provided, self-identified information.
 
- Data review prior cleaning was processed in SQL and Python to ensure clean and smooth process of prediction.
+Data review prior cleaning was processed in SQL and Python to ensure clean and smooth process of prediction.
 
  #### Tools used in SQL:
  - REPLACE
@@ -163,6 +162,15 @@ This exploration guided us in choosing the most relevant features for our later 
  - .items
  - matplotlib.pyplot (for pre-analysis visualization)
 
+ Results:
+ - No missing values in the dataset;
+ - No whitespaces or random symbols in both numaric and categorical columns;
+ - Summary statistics for all columns:
+ ![Summary statistics for all columns](/img/Summary statistics for all columns.png)
+
+ - Summary statistics for numarical features:
+ ![Summary statistics for numarical features](/img/Summary statistics for numarical features.png)
+
  # Data Analysis
 
  #### Why We Chose to Use a Machine Learning Model:
@@ -182,13 +190,22 @@ This exploration guided us in choosing the most relevant features for our later 
 
  By balancing accuracy with interpretability, the model enhances our project’s impact while staying aligned with our original business question and stakeholder needs.
 
- # Data Visualization
- TBD
+ # Conclusion
+ This project applied classification modeling to predict customers' preferred car category (SUV, Sedan, etc.) based on demographic and product-related features, including gender, annual income, dealer region, engine type, transmission, price, etc. The model aimed to identify the most popular car category among various customer segments.
+ 
+ During the experiments, two classification models were applied to achieve the desired results: Logistic Regression and Random Forest Classifier. Both models identified the same trend in car category popularity; however, their prediction accuracy differed. After implementing code improvements, Logistic Regression accuracy increased from 39% to 59%, indicating notable performance gains. Random Forest Classifier still achieved a higher accuracy of 71%, making it the stronger model overall. Despite the performance gap, Logistic Regression reliably captured the overall trend in car preferences, supporting its value for understanding general patterns, while Random Forest remains the preferred choice for more accurate predictions.
+
+Our recommendation for the business stakeholders is to make use of the classification model as a decision-support tool but not yet a fully autonomous system. Continuous improvement is needed in expanding dataset and cross-department data collaboration to enrich model inputs and model maturity. 
+
+ Limitations and Considerations
+  The analysis faced several data-related limitations that may affect model reliability:
+ * Inconsistent Gender Data: Gender values were likely self-reported, leading to potential mismatches with demographic  assumptions.
+ * Income-Gender Bias: The income feature may reflect societal disparities, such as the gender pay gap, influencing car affordability.
+ * Unclear Buyer Identity: The dataset doesn’t confirm if the buyer and demographic details belong to the same person (e.g., purchases made by parents or partners).
+ * Limited Demographics: Key factors like age, marital status, and family size are missing, reducing prediction accuracy.
+ Based on these limitations we can suggest that broader and more detailed data would improve future model performance and could provide more insights.
 
  # Team Videos
- TBD
-
- # Conclusion
  TBD
 
  # Credits and Source
