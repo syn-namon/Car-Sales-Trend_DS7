@@ -163,10 +163,10 @@ The data review prior to cleaning was done in SQL and Python to ensure clean and
  - No missing values in the dataset;
  - No whitespaces or random symbols in both numeric and categorical columns;
  - Summary statistics for all columns:
- ![Summary statistics for all columns](/img/Summary statistics for all columns.png)
+ ![Summary statistics for all columns](/img/Summary_statistics_for_all_columns.png)
 
  - Summary statistics for numerical features:
- ![Summary statistics for numerical features](/img/Summary statistics for numerical features.png)
+ ![Summary statistics for numerical features](/img/Summary_statistics_for_numerical_features.png)
 
  # Data Analysis
 
@@ -209,15 +209,17 @@ The data review prior to cleaning was done in SQL and Python to ensure clean and
   - Moderate Predicted Category: SUV
   - Accuracy: high average accuracy (71%)
   - Interpretability: less transparent in showing the contribution of individual features
+ 
+ ![Car Category Popularity Actual Purchases vs Predicted Purchases Based on Random Forest Model](/img/Car_Category_Popularity_Actual_Purchases_vs_Predicted_Purchases_Based_on_Random_Forest_Model.png)
 
 Overall, while the model is promising, its performance varies across classes, making it valuable as a decision-support tool but not yet a fully autonomous system. More data and factors should be collected and reviewed to improve the model. 
 
  # Conclusion
  This project applied classification modeling to predict customers' preferred car category (SUV, Sedan, etc.) based on demographic and product-related features, including gender, annual income, dealer region, engine type, transmission, price, etc. The model aimed to identify the most popular car category among various customer segments.
  
- During experimentation, two classification models were applied to achieve the desired results: Logistic Regression and Random Forest Classifier. Both models identified the same trend in car category popularity; however, their prediction accuracy differed. After implementing code improvements, Logistic Regression accuracy increased from 39% to 59%, indicating notable performance gains. Random Forest Classifier still achieved a higher accuracy of 71%, making it the stronger model overall. Despite the performance gap, Logistic Regression reliably captured the overall trend in car preferences, supporting its value for understanding general patterns, while Random Forest remains the preferred choice for more accurate predictions.
+ During experimentation, two classification models were applied: Logistic Regression and Random Forest Classifier. Both models identified the same trend in car category popularity; however, their prediction accuracy differed significantly. Logistic Regression achieved an accuracy of 39%, while Random Forest Classifier reached 71%, making it the stronger model overall. Despite its lower accuracy, Logistic Regression successfully captured the overall trend in car preferences, supporting the findings of the Random Forest model. Therefore, Random Forest is the preferred choice for more accurate and reliable predictions. 
 
-Our recommendation for the business stakeholders is to make use of the classification model as a decision-support tool but not yet a fully autonomous system. Continuous improvement is needed in expanding dataset and cross-department data collaboration to enrich model inputs and model maturity. 
+ Our recommendation for the business stakeholders is to make use of the classification model as a decision-support tool but not yet a fully autonomous system. Continuous improvement is needed in expanding dataset and cross-department data collaboration to enrich model inputs and model maturity. 
 
  Limitations and Considerations
   The analysis faced several data-related limitations that may affect model reliability:
