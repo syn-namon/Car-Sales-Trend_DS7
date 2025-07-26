@@ -186,6 +186,36 @@ This exploration guided us in choosing the most relevant features for our later 
 
  By balancing accuracy with interpretability, the model enhances our project’s impact while staying aligned with our original business question and stakeholder needs.
 
+## Logistic Regression
+### Best Predicted Category: SUV
+Precision: 0.38
+
+Recall: 0.62
+
+F1 Score: 0.47
+        Meaning: The model correctly identified 62% of actual SUV buyers and did so with reasonable precision. This category had the highest performance.
+
+### Weakest Category: Hardtop
+Precision: 0.54 (somewhat precise)
+
+Recall: 0.08 (very low)
+
+F1 Score: 0.14
+     Meaning: Even when the model predicts "Hardtop," it’s rarely correct — and it misses most actual Hardtop buyers.
+
+### Other Classes:
+Hatchback and Sedan had moderate results (F1 around 0.38–0.45)
+
+Passenger cars were poorly predicted, with low recall and F1 (suggests overlap with other classes)
+
+### Overall Performance:
+Accuracy: 39%
+
+Macro F1 Score: 0.34
+
+Weighted F1 Score: 0.36
+     Conclusion: The model performs better than random guessing, but not strong enough for deployment.
+
  # Data Visualization
  TBD
 
