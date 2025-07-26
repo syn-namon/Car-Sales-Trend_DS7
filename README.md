@@ -119,19 +119,15 @@ For our capstone project in the Data Science Certificate program at the Universi
 
  > ### SUVs were the most popular body style
 
- ![Chart showing the top 5 body styes sold](/img//Top%205%20Body%20Styles%20Sold.png)
+ ![Chart showing the top 5 body styes sold](/img/Top%205%20Body%20Styles%20Sold.png)
 
  > ### Automatic transmissions dominated sales across all regions
 
  ![Chart showing transmission types across dealer regions](/img/Transmission%20Types%20Across%20Dealer%20Regions.png)
 
-> ### Top 5 brands by no of cars sold
+ > ### Top 5 brands by no of cars sold
 
 ![Top 5 brands by no of cars sold](/img/Top%205%20Brands%20Sold.png)
-
-> ### Brands like Toyota, Ford, and BMW consistently appeared among the top sellers
-
- ![Chart showing top three brands sales count](/img/Sales%20Count%20For%20Toyota,%20Ford,%20And%20BMW.png)
 
  > ### Car prices varied significantly based on model, region, and customer income level
 
