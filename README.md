@@ -163,10 +163,10 @@ The data review prior to cleaning was done in SQL and Python to ensure clean and
  - No missing values in the dataset;
  - No whitespaces or random symbols in both numeric and categorical columns;
  - Summary statistics for all columns:
- ![Summary statistics for all columns](/img/Summary statistics for all columns.png)
+ ![Summary statistics for all columns](/img/Summary_statistics_for_all_columns.png)
 
  - Summary statistics for numerical features:
- ![Summary statistics for numerical features](/img/Summary statistics for numerical features.png)
+ ![Summary statistics for numerical features](/img/Summary_statistics_for_numerical_features.png)
 
  # Data Analysis
 
