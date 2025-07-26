@@ -12,9 +12,6 @@ For our capstone project in the Data Science Certificate program at the Universi
  - Nguyen Thuy Duong Le
  - Shailesh Thapa
  
- <!-- This is a short summary, we can add to it as we start the project -->
- ## Data Science Institute - Cohort 6 — Team 7 - Final Project
- 
  <!-- We can share ownership of this section -->
  # Project Overview
  - [Purpose and Overview](#purpose-and-overview)
@@ -31,12 +28,12 @@ For our capstone project in the Data Science Certificate program at the Universi
 
  The goal of this project is to analyze and visualize trends in the car sales market using the "Car Sales Report" dataset. Our team aims to uncover insights into sales performance across different brands, models, body types, fuel types, and price segments. 
  
- The project was processed with help of classification modelling to understand the impact of demographic factors on the popularity of a specific car model based on historical purchase data. The features, which were used for the predictions are following: gender, annual income, price, body style, company, model, engine, transmission, color, and dealer region.
+ The project utilized classification modeling to understand the impact of demographic factors on the popularity of a specific car model based on historical purchase data. The features, which were used for the predictions are following: gender, annual income, price, body style, company, model, engine, transmission, color, and dealer region.
  
  The dataset shows that there are some possible risks/biases, which are important to mention:
- - The income feature depends on the gender, which affects customer ability to afford a specific range of the car. The statistics says that women earn 18% less on average than men in the USA. ([source](https://www.epi.org/blog/gender-pay-gap-2024/))
- - There could be a possibility when a car is bought by a parent or a partner for the person of the opposite gender. The dataset doesn't provide enough of details to analyze this possibility and its impact on the prediction.
- - The limited demographic data (gender and income) could cause less accurate prediction. Such factors as age, marriage status, and amount of kids can affect the trend as well.
+ - The income feature depends on the gender, which affects customer ability to afford a specific range of the car. Statistics show that women earn 18% less on average than men in the USA. ([source](https://www.epi.org/blog/gender-pay-gap-2024/))
+ - There could be a possibility when a car is bought by a parent or a partner for the person of the opposite gender. The dataset doesn't provide enough of details analyze this possibility and its impact on the prediction.
+ - The limited demographic data (gender and income) could cause less accurate prediction. Such factors as age, marital status, and amount of kids can affect the trend as well.
  These potential risks can affect and limit the reliability of our conclusions.
 
  By leveraging Python-based visualization libraries such as Matplotlib, Seaborn, and Plotly in a Jupyter Notebook environment, we intend to present clear and actionable visual narratives that highlight key market dynamics.
@@ -119,7 +116,7 @@ For our capstone project in the Data Science Certificate program at the Universi
 
  > ### SUVs were the most popular body style
 
- ![Chart showing the top 5 body styes sold](/img/Top%205%20Body%20Styles%20Sold.png)
+ ![Chart showing the top 5 body styles sold](/img/Top%205%20Body%20Styles%20Sold.png)
 
  > ### Automatic transmissions dominated sales across all regions
 
@@ -131,7 +128,7 @@ For our capstone project in the Data Science Certificate program at the Universi
 
  > ### Car prices varied significantly based on model, region, and customer income level
 
-![Chart showing price distribution of the cars](/img/Distribution%20of%20Car%20Prices.png)
+![Histogram showing no of cars sold and customer income](/img/Distribution%20of%20Car%20Prices.png)
 
 This exploration guided us in choosing the most relevant features for our later visualizations and predictive modeling, and gave us a solid understanding of the automotive sales landscape reflected in the data.
 
@@ -141,7 +138,7 @@ This exploration guided us in choosing the most relevant features for our later 
 
  Data validation of the "Gender" column revealed significant inconsistencies between gender-indicative names and the corresponding gender values. This suggests that the gender information was likely self-reported, possibly collected through an online form or survey. In such cases, individuals may have entered the gender they personally identify with, rather than one inferred by external criteria. Additionally, the dataset's source is listed as "Internet" on Kaggle, which supports the assumption that the gender values reflect user-provided, self-identified information.
 
-Data review prior cleaning was processed in SQL and Python to ensure clean and smooth process of prediction.
+The data review prior to cleaning was done in SQL and Python to ensure clean and smooth process of prediction.
 
  #### Tools used in SQL:
  - REPLACE
@@ -151,7 +148,7 @@ Data review prior cleaning was processed in SQL and Python to ensure clean and s
  - CTE
  - TEMP TABLE
  - CROSS JOIN
- - math operations (AVG, MIN, MAX, etc.)
+ - mathematical operations (AVG, MIN, MAX, etc.)
 
  #### Tools used in Python:
  - pd.to_datetime
@@ -164,23 +161,23 @@ Data review prior cleaning was processed in SQL and Python to ensure clean and s
 
  Results:
  - No missing values in the dataset;
- - No whitespaces or random symbols in both numaric and categorical columns;
+ - No whitespaces or random symbols in both numeric and categorical columns;
  - Summary statistics for all columns:
  ![Summary statistics for all columns](/img/Summary statistics for all columns.png)
 
- - Summary statistics for numarical features:
- ![Summary statistics for numarical features](/img/Summary statistics for numarical features.png)
+ - Summary statistics for numerical features:
+ ![Summary statistics for numerical features](/img/Summary statistics for numerical features.png)
 
  # Data Analysis
 
  ### Why We Chose to Use a Machine Learning Model:
- Our project aims to identify key factors that influence a customer's preference for specific car categories (e.g., SUV, Sedan, Hatchback, etc.). While exploratory data analysis and visualizations helped us uncover general trends and correlations, in order to strengthen the insights, we chose to build a Classification Model and experimented with 2 different algortithms, Logistic Regression and Random Forest. Both models provide value-added insights to our project in the following ways: 
+ Our project aims to identify key factors that influence a customer's preference for specific car categories (e.g., SUV, Sedan, Hatchback, etc.). While exploratory data analysis and visualizations helped us uncover general trends and correlations, in order to strengthen the insights, we chose to build a Classification Model and experimented with 2 different algorithms, Logistic Regression and Random Forest. Both models provide value-added insights to our project in the following ways: 
 
  ### Predictive Power:
  By using a classification model, we can predict which car category a potential customer is likely to purchase based on their demographic and purchase history. Random Forest model performs well in terms of accuracy making it valuable for sales and marketing teams to tailor their strategies.
 
  ### Interpretability:
- Logistic Regression model with its reliance on optimized feture coefficients offers clear insights into which features (e.g., income, region, engine type) are most influential in shaping customer preferences. This supports data-driven decision-making for product planning and dealership targeting.
+ Logistic Regression model with its reliance on optimized feature coefficients offers clear insights into which features (e.g., income, region, engine type) are most influential in shaping customer preferences. This supports data-driven decision-making for product planning and dealership targeting.
 
  ### Business Value:
  The aligned outcomes from both models provide actionable insights that go beyond historical trends — enabling personalized product recommendations and segmentation strategies, which are critical for automotive businesses aiming to optimize customer engagement.
@@ -218,7 +215,7 @@ Overall, while the model is promising, its performance varies across classes, ma
  # Conclusion
  This project applied classification modeling to predict customers' preferred car category (SUV, Sedan, etc.) based on demographic and product-related features, including gender, annual income, dealer region, engine type, transmission, price, etc. The model aimed to identify the most popular car category among various customer segments.
  
- During the experiments, two classification models were applied to achieve the desired results: Logistic Regression and Random Forest Classifier. Both models identified the same trend in car category popularity; however, their prediction accuracy differed. After implementing code improvements, Logistic Regression accuracy increased from 39% to 59%, indicating notable performance gains. Random Forest Classifier still achieved a higher accuracy of 71%, making it the stronger model overall. Despite the performance gap, Logistic Regression reliably captured the overall trend in car preferences, supporting its value for understanding general patterns, while Random Forest remains the preferred choice for more accurate predictions.
+ During experimentation, two classification models were applied to achieve the desired results: Logistic Regression and Random Forest Classifier. Both models identified the same trend in car category popularity; however, their prediction accuracy differed. After implementing code improvements, Logistic Regression accuracy increased from 39% to 59%, indicating notable performance gains. Random Forest Classifier still achieved a higher accuracy of 71%, making it the stronger model overall. Despite the performance gap, Logistic Regression reliably captured the overall trend in car preferences, supporting its value for understanding general patterns, while Random Forest remains the preferred choice for more accurate predictions.
 
 Our recommendation for the business stakeholders is to make use of the classification model as a decision-support tool but not yet a fully autonomous system. Continuous improvement is needed in expanding dataset and cross-department data collaboration to enrich model inputs and model maturity. 
 
