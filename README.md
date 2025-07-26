@@ -171,13 +171,13 @@ The data review prior to cleaning was done in SQL and Python to ensure clean and
  # Data Analysis
 
  ### Why We Chose to Use a Machine Learning Model:
- Our project aims to identify key factors that influence a customer's preference for specific car categories (e.g., SUV, Sedan, Hatchback, etc.). While exploratory data analysis and visualizations helped us uncover general trends and correlations, in order to strengthen the insights, we chose to build a Classification Model and experimented with 2 different algortithms, Logistic Regression and Random Forest. Both models provide value-added insights to our project in the following ways: 
+ Our project aims to identify key factors that influence a customer's preference for specific car categories (e.g., SUV, Sedan, Hatchback, etc.). While exploratory data analysis and visualizations helped us uncover general trends and correlations, in order to strengthen the insights, we chose to build a Classification Model and experimented with 2 different algorithms, Logistic Regression and Random Forest. Both models provide value-added insights to our project in the following ways: 
 
  ### Predictive Power:
  By using a classification model, we can predict which car category a potential customer is likely to purchase based on their demographic and purchase history. Random Forest model performs well in terms of accuracy making it valuable for sales and marketing teams to tailor their strategies.
 
  ### Interpretability:
- Logistic Regression model with its reliance on optimized feture coefficients offers clear insights into which features (e.g., income, region, engine type) are most influential in shaping customer preferences. This supports data-driven decision-making for product planning and dealership targeting.
+ Logistic Regression model with its reliance on optimized feature coefficients offers clear insights into which features (e.g., income, region, engine type) are most influential in shaping customer preferences. This supports data-driven decision-making for product planning and dealership targeting.
 
  ### Business Value:
  The aligned outcomes from both models provide actionable insights that go beyond historical trends — enabling personalized product recommendations and segmentation strategies, which are critical for automotive businesses aiming to optimize customer engagement.
