@@ -173,22 +173,47 @@ Data review prior cleaning was processed in SQL and Python to ensure clean and s
 
  # Data Analysis
 
- #### Why We Chose to Use a Machine Learning Model:
- Our project aims to identify key factors that influence a customer's preference for specific car categories (e.g., SUV, Sedan, Hatchback, etc.). While exploratory data analysis and visualizations helped us uncover general trends and correlations, we chose to build a Logistic Regression classification model to strengthen the insights in the following ways:
+ ### Why We Chose to Use a Machine Learning Model:
+ Our project aims to identify key factors that influence a customer's preference for specific car categories (e.g., SUV, Sedan, Hatchback, etc.). While exploratory data analysis and visualizations helped us uncover general trends and correlations, in order to strengthen the insights, we chose to build a Classification Model and experimented with 2 different algortithms, Logistic Regression and Random Forest. Both models provide value-added insights to our project in the following ways: 
 
- #### Predictive Power:
- By using a classification model, we can predict which car category a potential customer is likely to purchase based on their demographic and purchase history. This is valuable for sales and marketing teams to tailor their strategies.
+ ### Predictive Power:
+ By using a classification model, we can predict which car category a potential customer is likely to purchase based on their demographic and purchase history. Random Forest model performs well in terms of accuracy making it valuable for sales and marketing teams to tailor their strategies.
 
- #### Interpretability:
- Logistic Regression offers clear insights into which features (e.g., income, region, engine type) are most influential in shaping customer preferences. This supports data-driven decision-making for product planning and dealership targeting.
+ ### Interpretability:
+ Logistic Regression model with its reliance on optimized feture coefficients offers clear insights into which features (e.g., income, region, engine type) are most influential in shaping customer preferences. This supports data-driven decision-making for product planning and dealership targeting.
 
- #### Business Value:
- The model provides actionable insights that go beyond historical trends — enabling personalized product recommendations and segmentation strategies, which are critical for automotive businesses aiming to optimize customer engagement.
-
- #### Portfolio Strength:
+ ### Business Value:
+ The aligned outcomes from both models provide actionable insights that go beyond historical trends — enabling personalized product recommendations and segmentation strategies, which are critical for automotive businesses aiming to optimize customer engagement.
+ - For the categories where the model is strong:
+   - **Sales team** can focus more inventory and engage more confidently with offering of upsell options.
+   - **Marketing team** can leverage strong prediction for email marketing and segmentation to achieve higher conversion rate with focused messaging.
+   - **Product managers** can develop bundled features, add-ons and focused product lines.
+   - **Business Executives** can optimize forecasting demand to better support dealer stocking and refine regional strategy.
+- For the categories where the model is weaker:
+  - All stakeholders should consider manual review or additional signals (behavioral or location-based signals) before making decisions.
+ ### Portfolio Strength:
  Incorporating a machine learning model demonstrates our team’s capability to move from data analysis to predictive modeling, an important skill set for data science roles.
 
  By balancing accuracy with interpretability, the model enhances our project’s impact while staying aligned with our original business question and stakeholder needs.
+
+ ### Model Performance Summary: 
+ #### Similarity:  
+ - Weakest Predicted Category: Hardtop
+ - Moderate Predicted Category: Sedan/Hatchback
+
+ ##### Difference:
+- Logistic Regression model: 
+  - Strongest Predicted Category: SUV
+  - Moderate Predicted Category: Passenger
+  - Accuracy: low average accuracy (39%)
+  - Interpretability: strong in showing the contribution of individual features
+- Random Forest model: 
+  - Strongest Predicted Category: Passenger
+  - Moderate Predicted Category: SUV
+  - Accuracy: high average accuracy (71%)
+  - Interpretability: less transparent in showing the contribution of individual features
+
+Overall, while the model is promising, its performance varies across classes, making it valuable as a decision-support tool but not yet a fully autonomous system. More data and factors should be collected and reviewed to improve the model. 
 
  # Conclusion
  This project applied classification modeling to predict customers' preferred car category (SUV, Sedan, etc.) based on demographic and product-related features, including gender, annual income, dealer region, engine type, transmission, price, etc. The model aimed to identify the most popular car category among various customer segments.
