@@ -119,19 +119,15 @@ For our capstone project in the Data Science Certificate program at the Universi
 
  > ### SUVs were the most popular body style
 
- ![Chart showing the top 5 body styes sold](/img//Top%205%20Body%20Styles%20Sold.png)
+ ![Chart showing the top 5 body styes sold](/img/Top%205%20Body%20Styles%20Sold.png)
 
  > ### Automatic transmissions dominated sales across all regions
 
  ![Chart showing transmission types across dealer regions](/img/Transmission%20Types%20Across%20Dealer%20Regions.png)
 
-> ### Top 5 brands by no of cars sold
+ > ### Top 5 brands by no of cars sold
 
 ![Top 5 brands by no of cars sold](/img/Top%205%20Brands%20Sold.png)
-
-> ### Brands like Toyota, Ford, and BMW consistently appeared among the top sellers
-
- ![Chart showing top three brands sales count](/img/Sales%20Count%20For%20Toyota,%20Ford,%20And%20BMW.png)
 
  > ### Car prices varied significantly based on model, region, and customer income level
 
@@ -145,7 +141,7 @@ This exploration guided us in choosing the most relevant features for our later 
 
  Data validation of the "Gender" column revealed significant inconsistencies between gender-indicative names and the corresponding gender values. This suggests that the gender information was likely self-reported, possibly collected through an online form or survey. In such cases, individuals may have entered the gender they personally identify with, rather than one inferred by external criteria. Additionally, the dataset's source is listed as "Internet" on Kaggle, which supports the assumption that the gender values reflect user-provided, self-identified information.
 
- Data review prior cleaning was processed in SQL and Python to ensure clean and smooth process of prediction.
+Data review prior cleaning was processed in SQL and Python to ensure clean and smooth process of prediction.
 
  #### Tools used in SQL:
  - REPLACE
@@ -199,6 +195,8 @@ This exploration guided us in choosing the most relevant features for our later 
  
  During the experiments, two classification models were applied to achieve the desired results: Logistic Regression and Random Forest Classifier. Both models identified the same trend in car category popularity; however, their prediction accuracy differed. After implementing code improvements, Logistic Regression accuracy increased from 39% to 59%, indicating notable performance gains. Random Forest Classifier still achieved a higher accuracy of 71%, making it the stronger model overall. Despite the performance gap, Logistic Regression reliably captured the overall trend in car preferences, supporting its value for understanding general patterns, while Random Forest remains the preferred choice for more accurate predictions.
 
+Our recommendation for the business stakeholders is to make use of the classification model as a decision-support tool but not yet a fully autonomous system. Continuous improvement is needed in expanding dataset and cross-department data collaboration to enrich model inputs and model maturity. 
+
  Limitations and Considerations
   The analysis faced several data-related limitations that may affect model reliability:
  * Inconsistent Gender Data: Gender values were likely self-reported, leading to potential mismatches with demographic  assumptions.
@@ -206,7 +204,6 @@ This exploration guided us in choosing the most relevant features for our later 
  * Unclear Buyer Identity: The dataset doesn’t confirm if the buyer and demographic details belong to the same person (e.g., purchases made by parents or partners).
  * Limited Demographics: Key factors like age, marital status, and family size are missing, reducing prediction accuracy.
  Based on these limitations we can suggest that broader and more detailed data would improve future model performance and could provide more insights.
-
 
  # Team Videos
  TBD
