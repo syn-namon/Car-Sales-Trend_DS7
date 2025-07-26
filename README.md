@@ -28,12 +28,12 @@ For our capstone project in the Data Science Certificate program at the Universi
 
  The goal of this project is to analyze and visualize trends in the car sales market using the "Car Sales Report" dataset. Our team aims to uncover insights into sales performance across different brands, models, body types, fuel types, and price segments. 
  
- The project utilized classification modeling to understand the impact of demographic factors on the popularity of a specific car model based on historical purchase data. The features, which were used for the predictions are following: gender, annual income, price, body style, company, model, engine, transmission, color, and dealer region.
+ The project utilized classification modeling to understand the impact of demographic factors on the popularity of a specific car model based on historical purchase data. The features used for the predictions included gender, annual income, price, body style, company, model, engine, transmission, color, and dealer region.
  
- The dataset shows that there are some possible risks/biases, which are important to mention:
+ The dataset shows that there are some potential risks and biases, which are important to mention:
  - The income feature depends on the gender, which affects customer ability to afford a specific range of the car. Statistics show that women earn 18% less on average than men in the USA. ([source](https://www.epi.org/blog/gender-pay-gap-2024/))
  - There could be a possibility when a car is bought by a parent or a partner for the person of the opposite gender. The dataset doesn't provide enough of details analyze this possibility and its impact on the prediction.
- - The limited demographic data (gender and income) could cause less accurate prediction. Such factors as age, marital status, and amount of kids can affect the trend as well.
+ - The limited demographic data (gender and income) may result in less accurate prediction. Such factors as age, marital status, and amount of kids can affect the trend as well.
  These potential risks can affect and limit the reliability of our conclusions.
 
  By leveraging Python-based visualization libraries such as Matplotlib, Seaborn, and Plotly in a Jupyter Notebook environment, we intend to present clear and actionable visual narratives that highlight key market dynamics.
@@ -41,8 +41,8 @@ For our capstone project in the Data Science Certificate program at the Universi
  # Methodology
  ## Steps taken:
  - Data Cleaning: Handling missing values, removing inconsistencies, and ensuring data readiness.
- - Pre-analysis, finding correlation: Understanding patterns, correlations, and data distribution.
- - Classification analysis and validation: applying linear classification models to determine how our demographic features  affect the customers' choice during purchasing a car based on historical purchase data. Additionally, creating training and test sets and assessing model accuracy. 
+ - Preliminary analysis to identify  correlation: Understanding patterns, correlations, and data distribution.
+ - Classification analysis and validation: applying linear classification models to determine how demographic factors influence customer choices during purchasing a car based on historical purchase data. Additionally, creating training and test sets and assessing model accuracy. 
  - Visualization: Creating plots to represent insights and model results.
  - Conclusion
 
@@ -116,19 +116,19 @@ For our capstone project in the Data Science Certificate program at the Universi
 
  > ### SUVs were the most popular body style
 
- ![Chart showing the top 5 body styles sold](/img/Top%205%20Body%20Styles%20Sold.png)
+ ![Chart showing the top 5 body styles sold](/img/Top_5_Body_Styles_Sold.png)
 
  > ### Automatic transmissions dominated sales across all regions
 
- ![Chart showing transmission types across dealer regions](/img/Transmission%20Types%20Across%20Dealer%20Regions.png)
+ ![Chart showing transmission types across dealer regions](/img/Transmission_Types_Across_Dealer_Regions.png)
 
  > ### Top 5 brands by no of cars sold
 
-![Top 5 brands by no of cars sold](/img/Top%205%20Brands%20Sold.png)
+![Top 5 brands by no of cars sold](/img/Top_5_Brands_Sold.png)
 
  > ### Car prices varied significantly based on model, region, and customer income level
 
-![Histogram showing no of cars sold and customer income](/img/Distribution%20of%20Car%20Prices.png)
+![Histogram showing no of cars sold and customer income](/img/Distribution_of_Car_Prices.png)
 
 This exploration guided us in choosing the most relevant features for our later visualizations and predictive modeling, and gave us a solid understanding of the automotive sales landscape reflected in the data.
 
@@ -173,13 +173,13 @@ The data review prior to cleaning was done in SQL and Python to ensure clean and
  # Data Analysis
 
  ### Why We Chose to Use a Machine Learning Model:
- Our project aims to identify key factors that influence a customer's preference for specific car categories (e.g., SUV, Sedan, Hatchback, etc.). While exploratory data analysis and visualizations helped us uncover general trends and correlations, in order to strengthen the insights, we chose to build a Classification Model and experimented with 2 different algortithms, Logistic Regression and Random Forest. Both models provide value-added insights to our project in the following ways: 
+ Our project aims to identify key factors that influence a customer's preference for specific car categories (e.g., SUV, Sedan, Hatchback, etc.). While exploratory data analysis and visualizations helped us uncover general trends and correlations, in order to strengthen the insights, we chose to build a Classification Model and experimented with 2 different algorithms, Logistic Regression and Random Forest. Both models provide value-added insights to our project in the following ways: 
 
  ### Predictive Power:
  By using a classification model, we can predict which car category a potential customer is likely to purchase based on their demographic and purchase history. Random Forest model performs well in terms of accuracy making it valuable for sales and marketing teams to tailor their strategies.
 
  ### Interpretability:
- Logistic Regression model with its reliance on optimized feture coefficients offers clear insights into which features (e.g., income, region, engine type) are most influential in shaping customer preferences. This supports data-driven decision-making for product planning and dealership targeting.
+ Logistic Regression model with its reliance on optimized feature coefficients offers clear insights into which features (e.g., income, region, engine type) are most influential in shaping customer preferences. This supports data-driven decision-making for product planning and dealership targeting.
 
  ### Business Value:
  The aligned outcomes from both models provide actionable insights that go beyond historical trends — enabling personalized product recommendations and segmentation strategies, which are critical for automotive businesses aiming to optimize customer engagement.
