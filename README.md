@@ -209,6 +209,8 @@ The data review prior to cleaning was done in SQL and Python to ensure clean and
   - Moderate Predicted Category: SUV
   - Accuracy: high average accuracy (71%)
   - Interpretability: less transparent in showing the contribution of individual features
+ 
+ ![Car Category Popularity Actual Purchases vs Predicted Purchases Based on Random Forest Model](/img/Car_Category_Popularity_Actual_Purchases_vs_Predicted_Purchases_Based_on_Random_Forest_Model.png)
 
 Overall, while the model is promising, its performance varies across classes, making it valuable as a decision-support tool but not yet a fully autonomous system. More data and factors should be collected and reviewed to improve the model. 
 
