@@ -37,7 +37,7 @@ For our capstone project in the Data Science Certificate program at the Universi
  These potential risks can affect and limit the reliability of our conclusions.
 
  By leveraging Python-based visualization libraries such as Matplotlib, Seaborn, and Plotly in a Jupyter Notebook environment, we intend to present clear and actionable visual narratives that highlight key market dynamics.
- 
+
  # Methodology
  ## Steps taken:
  - Data Cleaning: Handling missing values, removing inconsistencies, and ensuring data readiness.
@@ -56,6 +56,7 @@ For our capstone project in the Data Science Certificate program at the Universi
  - Numpy: matrix operations
  - Pandas: data analysis
  - Matplotlib: creating graphs and plots
+ - Plotly: creating graphs and plots
  - Seaborn: enhancing matplotlib plots
  - SKLearn: classification analysis
 
@@ -134,11 +135,11 @@ This exploration guided us in choosing the most relevant features for our later 
 
 
  # Data Cleaning
- After reviewing the dataset for common data quality issues—such as missing values, duplicate records, and inconsistent formatting—several adjustments were made. For example, the "Engine" column contained special characters that were removed to ensure consistency. The "Date" column was converted to a standardized format to enable time-based analysis. Additionally, numeric fields like "Price ($)" and "Annual Income" were checked to ensure they were correctly typed and free of invalid or non-numeric entries.
+ After reviewing the dataset for common data quality issues — such as missing values, duplicate records, and inconsistent formatting — several adjustments were made. For example, the "Engine" column contained special characters that were removed to ensure consistency. The "Date" column was converted to a standardized format to enable time-based analysis. Additionally, numeric fields like "Price ($)" and "Annual Income" were checked to ensure they were correctly typed and free of invalid or non-numeric entries.
 
  Data validation of the "Gender" column revealed significant inconsistencies between gender-indicative names and the corresponding gender values. This suggests that the gender information was likely self-reported, possibly collected through an online form or survey. In such cases, individuals may have entered the gender they personally identify with, rather than one inferred by external criteria. Additionally, the dataset's source is listed as "Internet" on Kaggle, which supports the assumption that the gender values reflect user-provided, self-identified information.
 
-The data review prior to cleaning was done in SQL and Python to ensure clean and smooth process of prediction.
+ The data review prior to cleaning was done in SQL and Python to ensure clean and smooth process of prediction.
 
  #### Tools used in SQL:
  - REPLACE
@@ -188,8 +189,9 @@ The data review prior to cleaning was done in SQL and Python to ensure clean and
    - **Marketing team** can leverage strong prediction for email marketing and segmentation to achieve higher conversion rate with focused messaging.
    - **Product managers** can develop bundled features, add-ons and focused product lines.
    - **Business Executives** can optimize forecasting demand to better support dealer stocking and refine regional strategy.
-- For the categories where the model is weaker:
-  - All stakeholders should consider manual review or additional signals (behavioral or location-based signals) before making decisions.
+ - For the categories where the model is weaker:
+   - All stakeholders should consider manual review or additional signals (behavioral or location-based signals) before making decisions.
+
  ### Portfolio Strength:
  Incorporating a machine learning model demonstrates our team’s capability to move from data analysis to predictive modeling, an important skill set for data science roles.
 
@@ -201,20 +203,30 @@ The data review prior to cleaning was done in SQL and Python to ensure clean and
  - Moderate Predicted Category: Sedan/Hatchback
 
  ##### Difference:
-- Logistic Regression model: 
+ - Logistic Regression model: 
   - Strongest Predicted Category: SUV
   - Moderate Predicted Category: Passenger
   - Accuracy: low average accuracy (39%)
   - Interpretability: strong in showing the contribution of individual features
-- Random Forest model: 
+ - Random Forest model: 
   - Strongest Predicted Category: Passenger
   - Moderate Predicted Category: SUV
   - Accuracy: high average accuracy (71%)
   - Interpretability: less transparent in showing the contribution of individual features
  
+ ### Features Correlation Analysis:
+ While applying the Random Forest model, we evaluated the correlation between features using a correlation matrix. However, the results revealed very weak correlations between categorical features. This has led us to consider using alternative, more suitable methods for analyzing correlations between categorical variables in the future.
+
+ ![Correlation Matrix](/img/Correlation_Matrix.png)
+
+ ### Prediction Results:
+ The analysis shows that the most popular car categories are SUV and Hatchback with selling power of more than 1200 units overall with higher numbers in prediction. 
  ![Car Category Popularity Actual Purchases vs Predicted Purchases Based on Random Forest Model](/img/Car_Category_Popularity_Actual_Purchases_vs_Predicted_Purchases_Based_on_Random_Forest_Model.png)
 
-Overall, while the model is promising, its performance varies across classes, making it valuable as a decision-support tool but not yet a fully autonomous system. More data and factors should be collected and reviewed to improve the model. 
+ It also showed strong prediction power for Passenger cars - 0.81 - the highest recall value.
+ ![Classification Report](/img/Classification_Report.png)
+
+ Overall, while the model is promising, its performance varies across classes, making it valuable as a decision-support tool but not yet a fully autonomous system. More data and factors should be collected and reviewed to improve the model. 
 
  # Conclusion
  This project applied classification modeling to predict customers' preferred car category (SUV, Sedan, etc.) based on demographic and product-related features, including gender, annual income, dealer region, engine type, transmission, price, etc. The model aimed to identify the most popular car category among various customer segments.
