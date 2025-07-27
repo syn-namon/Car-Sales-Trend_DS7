@@ -244,7 +244,13 @@ This exploration guided us in choosing the most relevant features for our later 
  Based on these limitations we can suggest that broader and more detailed data would improve future model performance and could provide more insights.
 
  # Team Videos
- TBD
+ | Name | Links |
+ | --- | --- |
+ | Inna Semenykhina | https://youtu.be/9smZuz8xJH4 |
+ | Aloysius Felix Rozario |  |
+ | Nguyen Thuy Duong Le |  |
+ | Shailesh Thapa |  | 
+
 
  # Credits and Source
  The data was sourced from Kaggle.\
