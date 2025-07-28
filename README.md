@@ -41,7 +41,7 @@ For our capstone project in the Data Science Certificate program at the Universi
  # Methodology
  ## Steps taken:
  - Data Cleaning: Handling missing values, removing inconsistencies, and ensuring data readiness.
- - Preliminary analysis to identify  correlation: Understanding patterns, correlations, and data distribution.
+ - Preliminary analysis to identify correlation: Understanding patterns, correlations, and data distribution.
  - Classification analysis and validation: applying linear classification models to determine how demographic factors influence customer choices during purchasing a car based on historical purchase data. Additionally, creating training and test sets and assessing model accuracy. 
  - Visualization: Creating plots to represent insights and model results.
  - Conclusion
@@ -64,7 +64,7 @@ For our capstone project in the Data Science Certificate program at the Universi
  
  ## Description
 
- This project involves conducting classification analysis on customer demographic and historical purchase data to identify key factors that predict customer’s purchase preference for specific car categories (e.g. SUV, Sedan, Hatchback, Luxury, etc). Data splitting  and performance metrics are used to validate and ensure reliability of the analysis. Additionally, we will provide insights and recommendations for sales and product management strategies based on the findings.
+ This project involves conducting classification analysis on customer demographic and historical purchase data to identify key factors that predict customer’s purchase preference for specific car categories (e.g. SUV, Sedan, Hatchback, Luxury, etc). Data splitting and performance metrics are used to validate and ensure reliability of the analysis. Additionally, we will provide insights and recommendations for sales and product management strategies based on the findings.
 
  ## Stakeholders
  - **Sales Teams** – Optimize inventory and customer interaction strategy.
@@ -202,17 +202,17 @@ This exploration guided us in choosing the most relevant features for our later 
  - Weakest Predicted Category: Hardtop
  - Moderate Predicted Category: Sedan/Hatchback
 
- ##### Difference:
+ #### Difference:
  - Logistic Regression model: 
-  - Strongest Predicted Category: SUV
-  - Moderate Predicted Category: Passenger
-  - Accuracy: low average accuracy (39%)
-  - Interpretability: strong in showing the contribution of individual features
+   - Strongest Predicted Category: SUV
+   - Moderate Predicted Category: Passenger
+   - Accuracy: low average accuracy (39%)
+   - Interpretability: strong in showing the contribution of individual features
  - Random Forest model: 
-  - Strongest Predicted Category: Passenger
-  - Moderate Predicted Category: SUV
-  - Accuracy: high average accuracy (71%)
-  - Interpretability: less transparent in showing the contribution of individual features
+   - Strongest Predicted Category: Passenger
+   - Moderate Predicted Category: SUV
+   - Accuracy: high average accuracy (71%)
+   - Interpretability: less transparent in showing the contribution of individual features
  
  ### Features Correlation Analysis:
  While applying the Random Forest model, we evaluated the correlation between features using a correlation matrix. However, the results revealed very weak correlations between categorical features. This has led us to consider using alternative, more suitable methods for analyzing correlations between categorical variables in the future.
@@ -235,9 +235,8 @@ This exploration guided us in choosing the most relevant features for our later 
 
  Our recommendation for the business stakeholders is to make use of the classification model as a decision-support tool but not yet a fully autonomous system. Continuous improvement is needed in expanding dataset and cross-department data collaboration to enrich model inputs and model maturity. 
 
- Limitations and Considerations
-  The analysis faced several data-related limitations that may affect model reliability:
- * Inconsistent Gender Data: Gender values were likely self-reported, leading to potential mismatches with demographic  assumptions.
+ In terms of limitations and considerations, the analysis faced several data-related limitations that may affect model reliability:
+ * Inconsistent Gender Data: Gender values were likely self-reported, leading to potential mismatches with demographic assumptions.
  * Income-Gender Bias: The income feature may reflect societal disparities, such as the gender pay gap, influencing car affordability.
  * Unclear Buyer Identity: The dataset doesn’t confirm if the buyer and demographic details belong to the same person (e.g., purchases made by parents or partners).
  * Limited Demographics: Key factors like age, marital status, and family size are missing, reducing prediction accuracy.
@@ -246,9 +245,9 @@ This exploration guided us in choosing the most relevant features for our later 
  # Team Videos
  | Name | Links |
  | --- | --- |
- | Inna Semenykhina | https://youtu.be/9smZuz8xJH4 |
+ | Inna Semenykhina | [Video Link](https://youtu.be/9smZuz8xJH4) |
  | Aloysius Felix Rozario | [Video Link](https://drive.google.com/file/d/13URfvSvd7eWe3DyFAJuJoleAYDODSVuv/view?usp=sharing) |
- | Nguyen Thuy Duong Le |  |
+ | Nguyen Thuy Duong Le | [Video Link](https://drive.google.com/file/d/10Q4I0GT0Di1kuyOqRMWIoh7PKBPJRnwJ/view?usp=sharing)|
  | Shailesh Thapa | [Video Link](https://drive.google.com/file/d/1CiPqg5A9HBJ01biCVjS_BUOrpHkileUV/view?usp=sharing) | 
 
 
