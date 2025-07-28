@@ -204,15 +204,15 @@ This exploration guided us in choosing the most relevant features for our later 
 
  ##### Difference:
  - Logistic Regression model: 
-  - Strongest Predicted Category: SUV
-  - Moderate Predicted Category: Passenger
-  - Accuracy: low average accuracy (39%)
-  - Interpretability: strong in showing the contribution of individual features
+   - Strongest Predicted Category: SUV
+   - Moderate Predicted Category: Passenger
+   - Accuracy: low average accuracy (39%)
+   - Interpretability: strong in showing the contribution of individual features
  - Random Forest model: 
-  - Strongest Predicted Category: Passenger
-  - Moderate Predicted Category: SUV
-  - Accuracy: high average accuracy (71%)
-  - Interpretability: less transparent in showing the contribution of individual features
+   - Strongest Predicted Category: Passenger
+   - Moderate Predicted Category: SUV
+   - Accuracy: high average accuracy (71%)
+   - Interpretability: less transparent in showing the contribution of individual features
  
  ### Features Correlation Analysis:
  While applying the Random Forest model, we evaluated the correlation between features using a correlation matrix. However, the results revealed very weak correlations between categorical features. This has led us to consider using alternative, more suitable methods for analyzing correlations between categorical variables in the future.
@@ -246,9 +246,9 @@ This exploration guided us in choosing the most relevant features for our later 
  # Team Videos
  | Name | Links |
  | --- | --- |
- | Inna Semenykhina | https://youtu.be/9smZuz8xJH4 |
+ | Inna Semenykhina | [Video Link](https://youtu.be/9smZuz8xJH4) |
  | Aloysius Felix Rozario | [Video Link](https://drive.google.com/file/d/13URfvSvd7eWe3DyFAJuJoleAYDODSVuv/view?usp=sharing) |
- | Nguyen Thuy Duong Le |  |
+ | Nguyen Thuy Duong Le | [Video Link](https://drive.google.com/file/d/10Q4I0GT0Di1kuyOqRMWIoh7PKBPJRnwJ/view?usp=sharing)|
  | Shailesh Thapa | [Video Link](https://drive.google.com/file/d/1CiPqg5A9HBJ01biCVjS_BUOrpHkileUV/view?usp=sharing) | 
 
 
