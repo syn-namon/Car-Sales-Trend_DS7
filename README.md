@@ -249,7 +249,7 @@ This exploration guided us in choosing the most relevant features for our later 
  | Inna Semenykhina | https://youtu.be/9smZuz8xJH4 |
  | Aloysius Felix Rozario | [Video Link](https://drive.google.com/file/d/13URfvSvd7eWe3DyFAJuJoleAYDODSVuv/view?usp=sharing) |
  | Nguyen Thuy Duong Le |  |
- | Shailesh Thapa |  | 
+ | Shailesh Thapa | [Video Link](https://drive.google.com/file/d/1CiPqg5A9HBJ01biCVjS_BUOrpHkileUV/view?usp=sharing) | 
 
 
  # Credits and Source
